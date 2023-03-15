@@ -1,0 +1,77 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+div#interface {
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    max-width: 1300px;
+    min-width: 300px;
+    height: 100%;
+    margin: -10px 125px 0px auto;
+   
+  
+   
+}
+/* area formulario */
+div#area-form {
+    width: 100%;
+   
+   
+    padding: 30px;
+    margin-top: -38px;
+    align-items: center;
+    justify-content: center;
+}
+div#area-form form {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+
+
+
+/* h4 */
+div#area-form fieldset button {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    background-color: rgb(148, 148, 148);
+    font-size: 13pt;
+   
+}
+div#area-form fieldset button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+div#area-form fieldset button a:hover {
+    color: black;
+}
+div#area-form fieldset button:hover {
+    background-color: rgb(202, 201, 201);
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

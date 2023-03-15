@@ -1,0 +1,348 @@
+
+* {
+   padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+
+body {
+    
+    background-color: white;
+    font-family: sans-serif;
+    
+}
+
+
+
+/* div-interface */
+
+div#interface {
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    max-width: 1300px;
+    min-width: 300px;
+    height: 680px;
+    margin: -10px auto;
+   
+  
+   
+}
+
+
+
+/* div-topo */
+
+div#topo {
+    background-color: rgba(27, 29, 29, 0.863);
+    color: rgb(216, 214, 214);
+    height: 35px;
+}
+div#topo li {
+    list-style: none;
+    padding: 8px 20px 8px 40px;
+    font-size: 10pt;
+}
+div#topo a {
+    color: rgb(216, 214, 214);
+    text-decoration: none;
+}
+
+/*  */
+
+div#topo li {
+    margin-right: -50px;
+}
+div#topo li.webm img {
+    width: 20px;
+    padding-right: 2px;
+    margin-bottom: -6px;
+}
+div#topo li.mood img {
+    width: 20px;
+    padding-right: 2px;
+    margin-bottom: -6px;
+
+}
+div#topo li.edon img {
+    width: 20px;
+   
+    margin-bottom: -6px;
+
+}
+
+/*  */
+
+div#topo .icone-esquerda  {
+      display: flex;
+      float: left;
+      margin-left: -25px;
+}
+
+ 
+div#topo .icone-direita .tooltips{
+    display: flex;
+    float: right;
+    padding-right: 5px;
+    
+}
+div#topo .icone-direita {
+    margin-right: 20px;
+}
+div#topo .icone-direita .tooltips img {
+    width: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-right: 1px solid rgb(202, 198, 198);
+    padding-right: 3px;
+    
+}
+
+
+
+/*  */
+
+
+
+
+/* MENU HEADER */
+
+
+
+/*  */
+
+
+/* e icone de seta */
+
+  
+
+
+div#menu-header ul li img {
+    
+    width: 13px;
+    height: 13px;
+    float: right;
+    margin-top: -2px;
+    margin-bottom: 5px;
+}
+
+div#menu-header div {
+    
+    width: 100%;
+    
+}
+div#menu-header {
+   
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 100%;
+    height: 40px;
+    background-color: white;  
+}
+
+div#menu-header ul {
+    display: flex;
+   width: 100%;
+    padding: 0px;
+  align-items: center;
+  justify-content: center;
+    
+   
+    
+}
+div#menu-header ul li {
+    
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 10pt;
+    padding: auto;
+    padding-right: 5px;
+    list-style: none; 
+    
+}
+div#menu-header ul li a {
+    color: rgb(53, 53, 53);
+    text-decoration: none;
+}
+div#menu-header ul li a:hover {
+    color: black;
+}
+
+
+/* header aside */
+
+
+aside{
+    position: absolute;
+    
+    top: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.icon-menu img{
+    width: 30px;
+    margin-top: 0px;
+    margin-right: 0px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* fundo img principal */
+
+div#fundo-img-principal  {
+    background: url(../_imagens/pexels-monstera-6238130\ -1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    width: 100%;
+    height: 90%;
+    
+    
+}
+
+/* img titulo */
+
+ div#fundo-img-principal div.img-titulo {
+    font-family: serif;
+    position: relative;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.363);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 60px;
+    
+}
+div#fundo-img-principal div.img-titulo h1 {
+    font-size: 45pt;
+    
+}
+
+div#fundo-img-principal div.img-titulo p {
+    font-size: 15pt;
+   
+}
+div#fundo-img-principal div.img-titulo button {
+    background-color: rgb(80, 230, 93);
+    padding: 7px 25px 7px 25px;
+}
+div#fundo-img-principal div.img-titulo button a {
+    text-decoration: none;
+    color: black;
+}
+div#fundo-img-principal div.img-titulo button a:hover {
+    color: rgb(62, 47, 233);
+}
+
+
+
+
+
+
+
+
+/* cartazes cartazes */
+div#cartazes {
+    position: relative;
+  
+   
+}
+div#cartazes ul {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    top: -80px;
+    
+   
+}
+
+div#cartazes ul li {
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    width: 200px;
+    height: 80px;
+    background-color: rgb(18, 22, 27);
+    color: white;
+}
+div#cartazes ul li img {
+    width: 65px;
+    height: 65px;
+    margin-bottom: -13px;
+    margin-right: 0px;
+}
+div#cartazes ul li a {
+    color: white;
+    text-decoration: none;
+}
+div#cartazes ul li a:hover {
+    color:  rgb(80, 230, 93);
+
+}
+
+
+
+
+
+
+/* cartazes c */
+div#cartazes ul li.c4 {
+    
+    background-color: rgb(80, 230, 93);
+       
+}
+
+div#cartazes ul li.c4 p span{
+    
+    width: 100%;
+    
+}
+
+
+
+
+div#cartazes ul li.c2 img {
+    width: 50px;
+    height: 50px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+div#cartazes ul li.c1 img {
+    padding-right: 5px;
+    padding-bottom: 10px;
+    width: 50px;
+    height: 50px;
+}
+div#cartazes ul li.c2 img {
+    width: 50px;
+    height: 50px;
+}
+div#cartazes ul li.c3 img {
+    padding-bottom: 10px;
+    width: 50px;
+    padding-right: 10px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,270 @@
+* {
+   
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    
+    background-color: white;
+    font-family: sans-serif;
+    
+}
+
+
+div#interface {
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    max-width: 1300px;
+    min-width: 200px;
+    height: 100%;
+    margin: -10px auto;
+   
+  
+   
+}
+
+
+
+/* div-topo */
+div#topo {
+    background-color: rgba(27, 29, 29, 0.863);
+    color: rgb(216, 214, 214);
+    height: 35px;
+}
+div#topo li {
+    list-style: none;
+    padding: 8px 20px 8px 40px;
+    font-size: 10pt;
+}
+div#topo a {
+    color: rgb(216, 214, 214);
+    text-decoration: none;
+}
+
+/*  */
+
+div#topo li {
+    margin-right: -50px;
+    
+}
+div#topo li.webm img {
+    width: 20px;
+    padding-right: 2px;
+    margin-bottom: -6px;
+}
+div#topo li.mood img {
+    width: 20px;
+    padding-right: 2px;
+    margin-bottom: -6px;
+
+}
+div#topo li.edon img {
+    width: 20px;
+   
+    margin-bottom: -6px;
+
+}
+
+/*  */
+
+div#topo .icone-esquerda  {
+      display: flex;
+      float: left;
+      margin-left: -25px;
+}
+ 
+div#topo .icone-direita .tooltips{
+    display: flex;
+    float: right;
+    padding-right: 5px;
+    
+}
+div#topo .icone-direita {
+    margin-right: 20px;
+   
+}
+div#topo .icone-direita .tooltips img {
+    width: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-right: 1px solid rgb(202, 198, 198);
+    padding-right: 3px;
+    
+}
+
+
+
+/*  */
+
+/* MENU HEADER */
+
+
+
+/*  */
+
+
+/* e icone de seta */
+
+div#menu-header ul li img {
+    
+    width: 13px;
+    height: 13px;
+    float: right;
+    margin-top: -2px;
+    margin-bottom: 5px;
+}
+
+
+div#menu-header {
+   
+    width: 100%;
+    height: 40px;
+    background-color: white;  
+    /* border-bottom: 1px solid #333; */
+}
+
+div#menu-header ul {
+    display: flex;
+    margin-left: 420px;
+    padding: 0px;
+   
+    
+}
+div#menu-header ul li {
+    font-family: sans-serif;
+    font-size: 10pt;
+    padding: auto;
+    margin-left: 10px;
+    list-style: none;
+    
+}
+div#menu-header ul li a {
+    color: rgb(53, 53, 53);
+    text-decoration: none;
+}
+div#menu-header ul li a:hover {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/* conteudo */
+
+/* titulo */
+
+div h3.titulo {
+    text-align: center;
+    justify-content: center;
+    font-family: 'font-italic', sans-serif;
+}
+
+div#area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* section */
+
+section#corpo {
+    float: left;
+    width: 670px;
+    font-family: sans-serif;
+    margin-right: 20px;
+    padding: 10px;
+    
+   
+    
+}
+section#corpo div  {
+    width: 100%;
+    
+    
+}
+section#corpo div h4 {
+    background-color: rgb(221, 223, 219);
+    color: lawngreen;
+    padding: 10px;
+
+}
+section#corpo div h4 span img {
+    width: 15px;
+    height: 15px;
+    float: right;
+    
+}
+section#corpo div p {
+    margin-left: 20px;
+    flex-wrap: wrap;
+    text-indent: 20px;
+    text-align: justify;
+    width: 90%;
+    
+  
+}
+
+
+
+
+
+/* aside */
+
+aside#lateral {
+    float: right;
+    width: 580px;
+    padding: 10px;
+  
+
+}
+aside#lateral div {
+    width: 100%;
+    height: 900px;
+}
+aside#lateral div.card {
+    background-image: url(../_imagens/pexels-stanley-morales-3186386.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    border: 10px solid rgb(68, 65, 57);
+    box-shadow: 1px 1px 4px rgb(0, 0, 0);
+   
+}
+aside#lateral div.card figcaption {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+aside#lateral div.card figcaption:hover {
+    opacity: 1;
+    transition: 0.8s;
+    background-color: rgba(41, 39, 39, 0.459);
+
+}
+
+
+/* footer */
+
+div.whatsapp {
+    position: absolute;
+}
+div.whatsapp img {
+    width: 40px;
+}
+

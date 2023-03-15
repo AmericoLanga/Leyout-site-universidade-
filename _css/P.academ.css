@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'font-computer';
+    src: url(../_fonts/computer-font.ttf);
+}
+@font-face {
+    font-family: 'font-bublegum';
+    src: url(../_fonts/bubblegum-sans-regular.otf);
+}
+@font-face {
+    font-family: 'font-italic';
+    src: url(../_fonts/Lato-Italic.ttf);
+}
+
+body {
+    font-family: sans-serif;
+}
+div#interface {
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    max-width: 1300px;
+    min-width: 300px;
+    height: 100%;
+    margin: -10px 125px 0px auto;
+   
+  
+   
+}
+
+
+
+/* portal academico */
+
+div#p-academico {
+    
+    flex-wrap: wrap;
+    padding-bottom: 145px;
+
+}
+
+div#p-academico div.titulo {
+    border-radius: 3px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20pt;
+    padding: 10px 0px 16px 0px ;
+    font-family: 'font-italic', sans-serif;
+    background: linear-gradient(45deg, #2c2e30, #687466, #5e5946, #977f69);
+    color: white;
+}
+
+div#p-academico div.texto {
+   
+    margin-bottom: 0px;
+    text-align: center;
+    color: rgb(70, 70, 70);
+}
+
+
+
+
+/* card home */
+
+div#card-home {
+    width: 100%;
+    padding: 0px 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: rgb(70, 70, 70);
+   
+    
+    
+}
+div#card {
+    
+    margin: 15px;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    border-radius: 0px;
+    -webkit-transition: all .3s ease-in;
+   box-shadow: 1px 1px 2px black;
+}
+
+div#card:hover {
+   -webkit-transform: scale(1.1);
+} 
+ 
+
+div#card img {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    
+}
+
+div#p-academico div.card-body {
+    padding: 0px 7px 3px 15px;
+    font-family: sans-serif;
+    font-size: 11.1pt;
+    
+}
+div#p-academico div.card-body h4 {
+    color: black;
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+div#p-academico div.card-body p {
+    margin-top: 9px;
+}
+
+div#p-academico div.card-body a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+        /* rodape footer */
+
+        footer#rodape  {
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            font-family: sans-serif;
+            margin-top: 10px;
+            display: flex;
+            background-color: black;
+            
+
+        }
+        footer#rodape h5 {
+            color: white;
+            margin-bottom: 7px;
+            font-size: 12pt;
+        }
+        footer#rodape ul {
+            margin: 25px 0px 25px 20px;
+            width: 325px;
+            color: white;
+            
+        }
+        footer#rodape ul li {
+            list-style: none;
+            margin-bottom: 7px;
+            font-size: 10pt;
+
+        }
+        
+
+        footer#rodape .lista-4 img {
+             width: 230px;
+             
+        }
+        footer#rodape .lista-4 .what {
+            width: 30px;
+            position: absolute;
+            right: 140px;
+            bottom: -220px;
+        }
+        footer#rodape .lista-3 a {
+            text-decoration: none;
+            color: white;
+        }
+        footer#rodape .lista-3 a:hover {
+            color: rgb(57, 54, 212);
+        }
+
+        footer#rodape .lista-2 img {
+            width: 15px;
+            margin-right: 2px;
+        }
+        footer#rodape .lista-2 a {
+            text-decoration: none;
+            color: white;
+        }
+        footer#rodape .lista-2 a:hover {
+            color: rgb(57, 54, 212);
+        }
+
+        footer#rodape .lista-1 img {
+            width: 15px;
+            margin-right: 2px;
+        }
+        footer#rodape .lista-1 a {
+            text-decoration: none;
+            color: white;
+        }
+        footer#rodape .lista-1 a:hover {
+            color: rgb(57, 54, 212);
+        }
+
+        /*  */
+        .lista-1 .cid  {
+            background-color: white;
+            
+        }
