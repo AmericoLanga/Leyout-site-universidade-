@@ -24,8 +24,9 @@ div#interface {
     min-width: 300px;
     height: 680px;
     margin: -10px auto;
-   
-  
+    margin: -10px 142px 0px auto;
+  align-items: center;
+  justify-content: center;
    
 }
 
@@ -145,22 +146,22 @@ div#menu-header {
 div#menu-header ul {
     display: flex;
    width: 100%;
+   margin-left: 412px;
     padding: 0px;
   align-items: center;
-  justify-content: center;
+ 
+  
     
    
     
 }
 div#menu-header ul li {
     
-    display: inline-block;
     font-family: sans-serif;
     font-size: 10pt;
     padding: auto;
-    padding-right: 5px;
-    list-style: none; 
-    
+    margin-left: 10px;
+    list-style: none;
 }
 div#menu-header ul li a {
     color: rgb(53, 53, 53);
@@ -204,7 +205,7 @@ aside{
 /* fundo img principal */
 
 div#fundo-img-principal  {
-    background: url(../_imagens/pexels-monstera-6238130\ -1.jpg) no-repeat;
+    background: url(../_imagens/pexels-monstera-6238130.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     background-color: white;

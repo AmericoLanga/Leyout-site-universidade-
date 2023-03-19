@@ -46,14 +46,18 @@
             flex-wrap: wrap;
         }
         div#departa div.texto {
-            width: 100%;
+            width: 50%;
             margin-bottom: 0px;
             text-align: center;
             color: rgb(70, 70, 70);
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            padding-bottom: 30px;
         }
         div#departa div.texto h3 {
             color: black;
-            font-family: 'font-italic', sans-serif;
+            font-family: sans-serif;
         }
         
         

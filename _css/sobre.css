@@ -18,10 +18,10 @@ div#interface {
     background-color: white;
     box-shadow: 0px 0px 10px black;
     max-width: 1300px;
-    min-width: 200px;
+    min-width: 300px;
     height: 100%;
     margin: -10px auto;
-   
+    margin: -10px 125px 0px auto;
   
    
 }
@@ -130,7 +130,9 @@ div#menu-header ul {
     display: flex;
     margin-left: 420px;
     padding: 0px;
-   
+    align-items: center;
+  
+  
     
 }
 div#menu-header ul li {
@@ -165,7 +167,8 @@ div#menu-header ul li a:hover {
 div h3.titulo {
     text-align: center;
     justify-content: center;
-    font-family: 'font-italic', sans-serif;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 div#area {
@@ -232,7 +235,7 @@ aside#lateral div {
     height: 900px;
 }
 aside#lateral div.card {
-    background-image: url(../_imagens/pexels-stanley-morales-3186386.jpg);
+    background-image: url(../_imagens/pexels-stanley-morales-3186386-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -250,6 +253,7 @@ aside#lateral div.card figcaption {
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
+    transition: 0.8s;
 }
 aside#lateral div.card figcaption:hover {
     opacity: 1;
@@ -258,13 +262,4 @@ aside#lateral div.card figcaption:hover {
 
 }
 
-
-/* footer */
-
-div.whatsapp {
-    position: absolute;
-}
-div.whatsapp img {
-    width: 40px;
-}
 
